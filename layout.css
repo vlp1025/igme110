@@ -13,7 +13,7 @@
   
  img{
       max-width: 225px;
-    margin: 10px 0px 0px 200px;
+    margin: 10px 0px 0px 0px;
 }
 p{
     line-height: 1.3em;
@@ -69,6 +69,21 @@ h2{
 
   
  }
+
+ .innerleft {
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(37, 37, 37);
+   color : white;
+   line-height: 1.3em;
+   font-size:16.7px;
+   font-family: 'Open Sans', sans-serif;
+
+
+ 
+}
  .topright {
    
     grid-row: 2/4;
